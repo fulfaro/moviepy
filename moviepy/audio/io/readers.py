@@ -257,4 +257,5 @@ class FFMPEG_AudioReader:
 
     def __del__(self):
         # If the garbage collector comes, make sure the subprocess is terminated.
-        self.close()
+        # self.close()
+        return ''
